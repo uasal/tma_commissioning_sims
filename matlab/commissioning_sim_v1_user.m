@@ -932,7 +932,7 @@ m2_dx_rem = 25 - m2_dx;
 m2_dz_rem = 25 - m2_dz;
 
 % Calculate ratio of movement between M1 and M2
-ratio_x = m1_dx_rem / m2_dx_rem; % Do we want the ratio between the two movements to be between how much M2 needs to move and the remaining movement for M1?
+ratio_x = m1_dx_rem / m2_dx_rem; 
 ratio_y = m1_dy_rem / m2_dy_rem;
 ratio_z = m1_dz_rem / m2_dz_rem;
 
